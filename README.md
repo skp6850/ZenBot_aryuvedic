@@ -3,8 +3,9 @@
 
 ## Setup
 1. Install dependencies: `pip install -r requirements.txt`
-2. Download model files
-3. Run: `python chatbot.py`
+2. Login to your huggingFace account to use the models.
+3. Download model files
+4. Run: `python chatbot.py`
 
 
 Use :
@@ -16,3 +17,6 @@ Use :
 - Speech recognition
 - Emotion detection
 - Text-to-speech
+
+
+You can just run the project on your machine directly by running chatbot.py file but incase you want to fine-tune the the model on your own all the dataset files are given.
