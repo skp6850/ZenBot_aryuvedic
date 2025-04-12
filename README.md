@@ -26,7 +26,7 @@ You can just run the project on your machine directly by running chatbot.py file
 2. 🧠 Fine-tuning on LLaMA 3.2
 3. 🌐 Flask web integration
 4. 🎙️ Voice & emotion modules
-5. 📊 Evaluation
+
 
 ---
 
