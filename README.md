@@ -91,17 +91,7 @@ This project is an AI-powered Ayurvedic chatbot that combines ancient wellness w
 
 ---
 
-### 📊 Step 7: Model Evaluation & Comparison
 
-- Used `eval_emotion_onnx.py` to get:
-  - Accuracy, Confusion Matrix, F1-score, Inference Time
-
-- Used `eval_llama_model.py` to compute:
-  - BLEU, ROUGE, Average Response Length
-
-- Compared your fine-tuned model with **DistilGPT2 baseline** in `comparison.py`.
-
----
 
 ### 🖼️ Outputs
 
