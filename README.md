@@ -95,7 +95,6 @@ This project is an AI-powered Ayurvedic chatbot that combines ancient wellness w
 
 ### 🖼️ Outputs
 
-- 📈 Plots: Confusion Matrix, BLEU/ROUGE bar charts
 - 🧠 Real-time interface with emotion-based and voice-aware responses
 
 ---
