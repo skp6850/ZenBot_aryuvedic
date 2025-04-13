@@ -9,6 +9,9 @@ import pyttsx3
 from flask import send_file
 from flask import Flask, render_template, request, jsonify, redirect, url_for
 from transformers import AutoTokenizer, AutoModelForCausalLM
+from huggingface_hub import login
+#API WILL BE REVOKED SOON)
+login('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')
 
 app = Flask(__name__)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
