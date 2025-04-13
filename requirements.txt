@@ -19,3 +19,4 @@ textstat
 matplotlib
 seaborn
 gunicorn
+python-dotenv
