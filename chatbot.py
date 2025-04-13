@@ -14,7 +14,7 @@ app = Flask(__name__)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Load chatbot model
-tokenizer = AutoTokenizer.from_pretrained("local_llama_model1") # Use fine-tuned model- Tweaks/qa_model_final
+tokenizer = AutoTokenizer.from_pretrained("Tweaks/qa_model_final") # Use fine-tuned model- Tweaks/qa_model_final
 model = AutoModelForCausalLM.from_pretrained(
     "local_llama_model1",
     torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32
@@ -25,7 +25,7 @@ model.to(device)
 emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
 #Use the huggingface Model- Tweaks/emotion_model_resnet18 
 #Download the model on local machine direclty here.
-onxx_session = onnxruntime.InferenceSession("emotion_model_resnet18.onnx", providers=["CPUExecutionProvider", "CUDAExecutionProvider"])
+onxx_session = onnxruntime.InferenceSession("Tweaks/emotion_model_resnet18", providers=["CPUExecutionProvider", "CUDAExecutionProvider"])
 
 # Globals
 current_emotion = "Neutral"
