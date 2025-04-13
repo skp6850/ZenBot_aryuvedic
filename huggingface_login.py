@@ -1,4 +1,10 @@
+import os
+from dotenv import load_dotenv
 from huggingface_hub import login
 
-login('use_your_token_here')
+# Load environment variables
+load_dotenv()
 
+# Get token from environment variable
+token = os.getenv('HUGGINGFACE_TOKEN')
+login(token)
