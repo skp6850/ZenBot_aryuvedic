@@ -9,8 +9,8 @@
 
 
 Use :
-1. For emotion detection -  Tweaks/emotion_model_resnet18
-2. For fine-tune Model - Tweaks/qa_model_final
+1. For emotion detection - https://drive.google.com/drive/folders/1kl0B72KajdmkSYOYfT1dx5NV-qgSWUu1?usp=sharing or Tweaks/emotion_model_resnet18
+2. For fine-tune Model - https://drive.google.com/file/d/1HbvE4qdDfF6LooAtlrUgq2mrRzPEM7Ck/view?usp=sharing or Tweaks/qa_model_final
 
 ## Features
 - Ayurvedic chatbot
